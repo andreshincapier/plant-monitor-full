@@ -7,13 +7,15 @@
 const char* ssid = "";
 const char* password =  "";
 
-unsigned long epochTime; 
+unsigned long epochTime;
 
 const char* ntpServer = "pool.ntp.org";
 const char* serverName = "";
 
 StaticJsonDocument<500> doc;
 
+
+//Setup
 void setup() {
 
   Serial.begin(115200);
