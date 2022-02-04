@@ -10,7 +10,7 @@ const char* password =  "1040749227";
 unsigned long epochTime; 
 
 const char* ntpServer = "pool.ntp.org";
-const char* serverName = "https://us-east-1.aws.data.mongodb-api.com/app/application-0-rsazk/endpoint/plantmonitor";
+const char* serverName = "";
 
 StaticJsonDocument<500> doc;
 
