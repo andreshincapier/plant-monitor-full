@@ -4,8 +4,8 @@
 
 #include "time.h"
 
-const char* ssid = "hincapieperafan";
-const char* password =  "1040749227";
+const char* ssid = "";
+const char* password =  "";
 
 unsigned long epochTime; 
 
